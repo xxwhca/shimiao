@@ -105,8 +105,6 @@
             },
             //提交
             submit(){
-                // console.log(this.tableData)
-                // debugger
                 console.log(JSON.stringify(this.tableData));
                 //axios.post('/diagoose/diagnose_result',this.tableData);
                 /*
@@ -115,6 +113,7 @@
             });
                  */
             },
+            //删除
             del(row, i){
                 this.tableData.splice(i, 1)
             }
